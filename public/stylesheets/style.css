@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 3.5em;
+}
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  padding: 14px 0;
+  width: 100%;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+.nav-bar-ul {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.header {
+  background-image: url(https://dam.muyinteresante.com.mx/wp-content/uploads/2019/07/Tesla1.jpg);
+  /* position:  0 0; */
+  position: relative;
+  background-repeat: no-repeat;
+  size: cover;
+  height: 650px;
+  padding: 50px;
+}
+header h2{
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+ .quote {
+  font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  bottom: 100px;
+}
